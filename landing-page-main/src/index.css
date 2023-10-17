@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: black;
+    color: white; 
+}
+
+@layer utilities {
+    .bg-gradient-text {
+      background-clip: text;
+      text-fill-color: transparent;
+      background: linear-gradient(93.71deg, #1044FC 14.88%, #C6ACF5 21.77%, #F190DF 26.76%, #FFF5B7 31.49%);
+    }
+    /* Add these custom margin classes to your CSS */
+.horizontal-margin {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.horizontal-margin-lg {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* For screens smaller than md (medium) */
+@media (max-width: 767px) {
+  .horizontal-margin-sm {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+
+      .horizontal-margin-10 {
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+      .blue-underline {
+        text-decoration: none;
+        border-bottom: 5px solid #1044fc;
+        
+      }
+
+      .purple-underline {
+        text-decoration: none;
+        border-bottom: 5px solid #C96AD2;
+        
+      }
+  }
+ 
+  
+  
+  
+  
